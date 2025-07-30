@@ -47,14 +47,7 @@ function agregarNombre() {
     amigos.map(nombre => {lista.innerHTML += `<li>${nombre}</li>`;});
 
     return;
-}
-
-/*
-
-
-
-
-*/
+};
 
 //Creo la función que se va a activar con el evento onclick() desde el botón "Sortear amigo", desarrollo la lógica para mostrar el amigo sorteado.
 function sortearAmigo() {
@@ -78,6 +71,8 @@ function sortearAmigo() {
     //Mostrar el resultado: Actualizar el contenido de las listas HTML, limpio "listAmigos" y muestro "resultado" utilizando innerHTML para mostrar el amigo sorteado.
     document.getElementById('listaAmigos').innerHTML = '';
     listaResultado.innerHTML = `<li>El amigo sorteado es: ${amigos[amigoSorteado]}</li>`;
+
+    //Limpio el array después del sorteo para poder rejugar.
     amigos = [];
 
     return;
