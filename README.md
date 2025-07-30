@@ -54,7 +54,7 @@ Este proyecto tiene como objetivo entretener y facilitar el sorteo en actividade
 
 Podés acceder al proyecto desde este repositorio o verlo online:
 
-🔗 [Ver proyecto en GitHub Pages](https://github.com/en-construcción)
+🔗 [Ver proyecto en GitHub Pages](https://ebudy0410.github.io/challenge-amigo-secreto/)
 
 ---
 
